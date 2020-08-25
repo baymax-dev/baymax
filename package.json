@@ -4,6 +4,9 @@
   "author": "chiel",
   "repository": "baymax-dev/baymax",
   "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "lint": "eslint --ext .js,.ts ."
   },
