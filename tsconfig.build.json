@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"jsx": "react",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"strict": true,
+		"target": "es6"
+	},
+
+	"references": [
+		{ "path": "./packages/core" },
+		{ "path": "./packages/http" },
+		{ "path": "./packages/logger" }
+	]
+}

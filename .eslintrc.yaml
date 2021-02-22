@@ -22,7 +22,15 @@ rules:
   arrow-parens:
     - 2
     - as-needed
+  # consistent-return: 0
+  # default-case: 0
+  # function-paren-newline:
+  #   - 2
+  #   - consistent
   import/extensions: 0
+  # import/first: 0
+  # import/no-extraneous-dependencies: 0
+  # import/no-named-as-default: 0
   import/order:
     - 2
     - groups:
@@ -41,4 +49,13 @@ rules:
     - allow:
         - info
         - error
+  # no-param-reassign: 0
+  # no-plusplus: 0
+  # no-nested-ternary: 0
+  # no-shadow:
+  #   - 2
+  #   - allow:
+  #       - err
   no-tabs: 0
+  # no-underscore-dangle: 0
+  # object-curly-newline: 0

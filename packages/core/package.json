@@ -1,0 +1,20 @@
+{
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "name": "@baymax-dev/core",
+  "version": "0.0.0",
+  "description": "BAYMAX core.",
+  "author": "chiel",
+  "repository": {
+    "type": "git",
+    "url": "github:baymax-dev/baymax",
+    "directory": "packages/core"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  }
+}

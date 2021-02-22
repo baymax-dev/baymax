@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "@baymax-dev/example",
+  "version": "0.0.0",
+  "description": "BAYMAX example.",
+  "author": "chiel",
+  "repository": {
+    "type": "git",
+    "url": "github:baymax-dev/baymax",
+    "directory": "packages/example"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel -d dist --extensions \".js,.ts\" --source-maps inline src --ignore **/__mocks__,**/__tests__",
+    "start": "babel -w -d dist --extensions \".js,.ts\" --source-maps inline src --ignore **/__mocks__,**/__tests__"
+  },
+  "dependencies": {
+    "@baymax-dev/core": "^0.0.0"
+  }
+}
